@@ -1,0 +1,42 @@
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #6366f1;
+    --secondary: #8b5cf6;
+    --accent: #10b981;
+  }
+  
+  body {
+    @apply antialiased text-gray-800;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 
+           transition-all duration-200 transform hover:-translate-y-0.5 
+           active:translate-y-0 shadow-md hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 bg-white text-gray-700 rounded-lg border border-gray-300 
+           hover:bg-gray-50 transition-all duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-lg p-6 transition-all duration-300 
+           hover:shadow-xl;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 
+           focus:ring-indigo-500 focus:border-transparent outline-none 
+           transition-all duration-200;
+  }
+}
+
