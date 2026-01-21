@@ -2,6 +2,17 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+
+### 📷 **ScreenShots**
+
+<img src="screenshots/dashboard.png" width="500"/>   
+<img src="screenshots/history.png" width="500"/> 
+<img src="screenshots/settings.png" width="500"/>
+
+<img src="screenshots/dashboard_mobile.png" width="200"/>
+
+<img src="screenshots/stats.png" width="200"/>        
+
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
